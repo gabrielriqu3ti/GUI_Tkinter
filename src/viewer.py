@@ -13,9 +13,9 @@ root.title("Image")
 
 root.iconbitmap('./Images/batman.ico')
 
-my_img1 = ImageTk.PhotoImage(Image.open("./Images/cat_or_dog_1.jpg"))
-my_img2 = ImageTk.PhotoImage(Image.open("./Images/cat_or_dog_2.jpg"))
-my_img3 = ImageTk.PhotoImage(Image.open("./Images/cat_or_dog_3.jpeg"))
+my_img1 = ImageTk.PhotoImage(Image.open("../Images/cat_or_dog_1.jpg"))
+my_img2 = ImageTk.PhotoImage(Image.open("../Images/cat_or_dog_2.jpg"))
+my_img3 = ImageTk.PhotoImage(Image.open("../Images/cat_or_dog_3.jpeg"))
 
 image_list = [my_img1, my_img2, my_img3]
 

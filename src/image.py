@@ -11,9 +11,9 @@ from PIL import ImageTk, Image
 root = Tk()
 root.title("Image")
 
-root.iconbitmap('./Images/batman.ico')
+root.iconbitmap('../Images/batman.ico')
 
-my_img = ImageTk.PhotoImage(Image.open("./Images/cat_or_dog_3.jpeg"))
+my_img = ImageTk.PhotoImage(Image.open("../Images/cat_or_dog_3.jpeg"))
 my_label = Label(image = my_img)
 my_label.pack()
 
